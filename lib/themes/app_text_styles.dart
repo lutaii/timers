@@ -1,0 +1,102 @@
+import 'package:flutter/material.dart';
+
+const textTheme = TextTheme(
+  displayLarge: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 57,
+    fontWeight: FontWeight.w600,
+    height: 64 / 57,
+  ),
+  displayMedium: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 42,
+    fontWeight: FontWeight.w400,
+    height: 52 / 42,
+  ),
+  displaySmall: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 36,
+    fontWeight: FontWeight.w600,
+    height: 44 / 36,
+  ),
+  headlineLarge: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 32,
+    fontWeight: FontWeight.w700,
+    height: 40 / 32,
+  ),
+  headlineMedium: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 28,
+    fontWeight: FontWeight.w700,
+    height: 36 / 28,
+  ),
+  headlineSmall: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 24,
+    fontWeight: FontWeight.w700,
+    height: 32 / 24,
+  ),
+  titleLarge: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 22,
+    fontWeight: FontWeight.w600,
+    height: 28 / 22,
+  ),
+  titleMedium: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    height: 24 / 16,
+    letterSpacing: 0.15,
+  ),
+  titleSmall: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 14,
+    fontWeight: FontWeight.w500,
+    height: 20 / 14,
+    letterSpacing: 0.1,
+  ),
+  labelLarge: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 14,
+    fontWeight: FontWeight.w500,
+    height: 20 / 14,
+    letterSpacing: 0.1,
+  ),
+  labelMedium: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 12,
+    fontWeight: FontWeight.w400,
+    height: 16 / 12,
+    letterSpacing: 0.5,
+  ),
+  labelSmall: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 11,
+    fontWeight: FontWeight.w500,
+    height: 16 / 11,
+    letterSpacing: 0.5,
+  ),
+  bodyLarge: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+    height: 24 / 16,
+    letterSpacing: 0.15,
+  ),
+  bodyMedium: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+    height: 20 / 14,
+    letterSpacing: 0.25,
+  ),
+  bodySmall: TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 12,
+    fontWeight: FontWeight.w500,
+    height: 16 / 12,
+    letterSpacing: 0.4,
+  ),
+);
