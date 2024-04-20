@@ -73,6 +73,8 @@ class TimesheetWidget extends StatelessWidget {
                                           ),
                                         ),
                                       )
+                                      .toList()
+                                      .reversed
                                       .toList(),
                                 )
                               ],
