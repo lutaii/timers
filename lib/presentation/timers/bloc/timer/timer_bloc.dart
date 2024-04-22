@@ -59,7 +59,6 @@ class TimerBloc extends Bloc<TimerEvent, TimerState> {
       emit(TimerRunInProgress(state.timers));
     } else {
       add(TimerFinished(id: event.id));
-      // state.timers.removeWhere((element) => element.id == event.id);
     }
   }
 
